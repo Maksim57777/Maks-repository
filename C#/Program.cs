@@ -6,8 +6,10 @@ namespace project
     {
         static void Main()
         {
-            Console.WriteLine ("Введи ваше имя");
-            Console.WriteLine ("Тебя зовут " + Console.ReadLine () + "?");
+            string Name;
+            Console.WriteLine ("Введи ваше имя: ");
+            Name = Console.ReadLine ();
+            Console.WriteLine ("Тебя зовут " + Name + "?");
 
         }
     }
