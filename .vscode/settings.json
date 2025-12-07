@@ -1,36 +1,17 @@
 {
-  // ============ ОБЩИЕ НАСТРОЙКИ ============
-  "editor.fontSize": 16,
-  "editor.wordWrap": "on",
-  "files.autoSave": "afterDelay",
-  
-  // ============ CODE RUNNER ============
-  "code-runner.executorMap": {
-    "csharp": "cd $dir && dotnet run",
-    "python": "cd $dir && python -u $fileName"
-  },
-  "code-runner.runInTerminal": true,
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.showRunCommandInEditorContextMenu": true,
-  "code-runner.showRunIconInEditorTitleMenu": true,
-  "code-runner.preserveFocus": false,
-  "code-runner.saveFileBeforeRun": true,
-  
-  // ============ PYTHON ============
-  "python.defaultInterpreterPath": "python3",
-  "python.terminal.executeInFileDir": true,
-  "python.experimental.showPlayIcon": true,
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnSave": true
-  },
-  
-  // ============ C# ============
-  "csharp.supportsMultipleCodeActions": true,
-  "[csharp]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp",
-    "editor.formatOnSave": true
-  },
-  "python-envs.defaultEnvManager": "ms-python.python:system",
-  "python-envs.pythonProjects": []
+    "editor.fontSize": 14,
+    "files.autoSave": "afterDelay",
+    
+    "python.defaultInterpreterPath": "python3",
+    "python.experimental.showPlayIcon": true,
+    
+    "csharp.supportsMultipleCodeActions": true,
+    
+    "code-runner.executorMap": {
+        "csharp": "cd $dir && dotnet run",
+        "python": "cd $dir && python -u $fileName"
+    },
+    "code-runner.runInTerminal": true,
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": []
 }
