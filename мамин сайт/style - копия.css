@@ -1,0 +1,32 @@
+body
+{
+color: #505050;
+background-image: url(2.jpg);
+font-family: Georgia;
+text-align: center;
+padding: 0 50px
+}
+
+a
+{
+color: #404040;
+}
+em
+{
+font-weight: bold;
+font-size: 21px;
+}
+.text {
+  position: relative;
+  z-index: 10;
+}
+  .background {
+  position: absolute;
+  z-index: 1; /* Фон под текстом */
+}
+p
+{
+font-size: 25px;
+text-align: left;
+padding: 0 50px
+}
