@@ -86,15 +86,7 @@ def check_internet_connection():
     except OSError:
         print("Нет соединения с интернетом или Telegram API")
         return False
-def check_internet_connection():
-    import socket
-    try:
-        socket.create_connection(("api.telegram.org", 443), timeout=5)
-        print("Соединение с Telegram API установлено")
-        return True
-    except OSError:
-        print("Нет соединения с интернетом или Telegram API")
-        return False
+
 
 if __name__ == "__main__":
     while True:

@@ -1,0 +1,16 @@
+{
+    // Включить Run панель только для Python
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    
+    // Настройки панели Run
+    "debug.openDebug": "openOnDebugStart",
+    "debug.openExplorerOnEnd": false,
+    "debug.showInStatusBar": "always",
+    
+    // Для Python файлов
+    "[python]": {
+        "debug.toolBarLocation": "docked",
+        "workbench.panel.defaultLocation": "bottom"
+    }
+}
