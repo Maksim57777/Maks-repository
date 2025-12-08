@@ -6,11 +6,10 @@ namespace project
     {
         static void Main()
         {
-            string Name;
-            Console.WriteLine ("Введи ваше имя: ");
-            Name = Console.ReadLine ();
+            int Name;
+            Console.Write ("Введи ваше имя: ");
+            Name = Convert.ToInt32 (Console.ReadLine ());
             Console.WriteLine ("Тебя зовут " + Name + "?");
-
         }
     }
 }
